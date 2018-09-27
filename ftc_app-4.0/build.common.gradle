@@ -91,6 +91,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_7
     }
 
+    
     sourceSets.main {
         jni.srcDirs = []
         jniLibs.srcDir rootProject.file('libs')
